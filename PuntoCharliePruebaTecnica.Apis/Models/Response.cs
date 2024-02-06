@@ -1,6 +1,6 @@
 ﻿namespace HogaryModa.Apis.Models
 {
-    /// <remarks/>
+    /// Entidad para almacenar los procesos para validar si existen o no errores
     public class Response
     {
         /// <remarks/>
