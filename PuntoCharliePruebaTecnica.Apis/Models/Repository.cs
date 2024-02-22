@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace PruebaTecnicaPuntoCharlie.Models
+namespace PuntoCharliePruebaTecnica.Apis.Models
 {
     /// Entidad para almacenar los datos de los repositorios y su total de commits
     public class Repository

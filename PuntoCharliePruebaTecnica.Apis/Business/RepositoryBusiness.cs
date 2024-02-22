@@ -1,9 +1,8 @@
-﻿using HogaryModa.Apis.Models;
-using PruebaTecnicaPuntoCharlie.Models;
+﻿using PuntoCharliePruebaTecnica.Apis.Models;
 using System;
 using System.Collections.Generic;
 
-namespace PruebaTecnicaPuntoCharlie.Business
+namespace PuntoCharliePruebaTecnica.Apis.Business
 {
     /// <remarks/>
     public class RepositoryBusiness
