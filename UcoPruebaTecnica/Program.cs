@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PuntoCharliePruebaTecnica.Apis
+namespace UcoPruebaTecnica
 {
     public class Program
     {

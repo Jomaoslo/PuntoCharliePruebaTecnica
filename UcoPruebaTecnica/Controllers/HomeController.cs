@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PuntoCharliePruebaTecnica.Apis.Models;
-using System;
-using System.Collections.Generic;
+using UcoPruebaTecnica.Models;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace PuntoCharliePruebaTecnica.Apis.Controllers
+namespace UcoPruebaTecnica.Controllers
 {
     public class HomeController : Controller
     {

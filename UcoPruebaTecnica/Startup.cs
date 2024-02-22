@@ -7,8 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UcoPruebaTecnica.Business;
+using UcoPruebaTecnica.Repository;
 
-namespace PuntoCharliePruebaTecnica.Apis
+namespace UcoPruebaTecnica
 {
     public class Startup
     {
@@ -23,6 +25,12 @@ namespace PuntoCharliePruebaTecnica.Apis
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            // Clases de Negocios
+            services.AddSingleton<ArtistBusiness>();
+
+            // Clases de Repositorios
+            services.AddSingleton<ArtistRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

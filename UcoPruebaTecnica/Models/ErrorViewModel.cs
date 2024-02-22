@@ -1,6 +1,6 @@
 using System;
 
-namespace PuntoCharliePruebaTecnica.Apis.Models
+namespace UcoPruebaTecnica.Models
 {
     public class ErrorViewModel
     {
